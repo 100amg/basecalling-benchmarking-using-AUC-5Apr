@@ -30,6 +30,36 @@ repo/
 | `auc_model_qscore_analysis.py`      | Compute AUC benchmarking metrics                |
 | `plot_auc_results.py`               | Generate benchmarking plots                     |
 
+## Input Directory Structure
+
+project/
+│
+├── pod5_data/
+│   ├── sample_1/
+│   ├── sample_2/
+│   └── ...
+│
+├── fast5_data/
+│   ├── sample_1/
+│   ├── sample_2/
+│   └── ...
+│
+├── reference.fasta
+├── reference.fasta.fai
+│
+├── run_dorado_fast_new_EpiC.sh
+├── run_dorado_hac_new_EpiC.sh
+├── run_dorado_hac_new_EpiC_server.sh
+├── run_dorado_sup_new_EpiC.sh
+├── run_guppy_hac_new_EpiC.sh
+│
+├── align_methyl_bams.sh
+├── auc_model_qscore_analysis.py
+├── plot_auc_results.py
+│
+
+│
+
 ## Workflow
 
 ### 1. Generate Methylation BAMs
