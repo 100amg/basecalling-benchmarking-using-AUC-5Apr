@@ -58,7 +58,6 @@ project/
 ├── plot_auc_results.py
 │
 
-│
 
 ## Workflow
 
