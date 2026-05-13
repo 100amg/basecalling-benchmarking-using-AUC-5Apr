@@ -32,6 +32,7 @@ repo/
 
 ## Input Directory Structure
 
+```bash
 project/
 ├── pod5_data/
 │   ├── sample_1/
@@ -55,6 +56,7 @@ project/
 ├── align_methyl_bams.sh
 ├── auc_model_qscore_analysis.py
 └── plot_auc_results.py
+```
 
 ## Workflow
 
