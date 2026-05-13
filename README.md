@@ -33,7 +33,6 @@ repo/
 ## Input Directory Structure
 
 project/
-│
 ├── pod5_data/
 │   ├── sample_1/
 │   ├── sample_2/
@@ -55,9 +54,7 @@ project/
 │
 ├── align_methyl_bams.sh
 ├── auc_model_qscore_analysis.py
-├── plot_auc_results.py
-│
-
+└── plot_auc_results.py
 
 ## Workflow
 
